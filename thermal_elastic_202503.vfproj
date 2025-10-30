@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="9.10" ProjectIdGuid="{B02FF034-EE02-4CE1-B659-A626AA87AC1A}">
+	<Platforms>
+		<Platform Name="Win32"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" Interfaces="true" WarnInterfaces="true" Traceback="true" BoundsCheck="true" RuntimeLibrary="rtMultiThreadedDebug"/>
+				<Tool Name="VFLinkerTool" AdditionalOptions="mkl_solver.lib mkl_c.lib libguide.lib" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/></Configuration>
+		<Configuration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="ソースファイル" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<File RelativePath=".\A_input.F90"/>
+		<File RelativePath=".\AA_make_Matrix.F90"/>
+		<File RelativePath=".\B_coordinates.F90"/>
+		<File RelativePath=".\C_rotation_local_structure.F90"/>
+		<File RelativePath=".\g02_rotation_Gamma.F90"/>
+		<File RelativePath=".\g0_rotation_Amat.F90"/>
+		<File RelativePath=".\gA_make_Bmat.F90"/>
+		<File RelativePath=".\gB_make_Kmat.F90"/>
+		<File RelativePath=".\gBA_BoundaryCondition.F90"/>
+		<File RelativePath=".\lA_make_Dmat.F90"/>
+		<File RelativePath=".\lAA_make_Smat.F90"/>
+		<File RelativePath=".\lB_make_Bmat.F90"/>
+		<File RelativePath=".\lC_make_Kmat.F90"/>
+		<File RelativePath=".\lCA_BoundaryCondition.F90"/>
+		<File RelativePath=".\lD_make_Fmat.F90"/>
+		<File RelativePath=".\lE_make_Xmat.F90"/>
+		<File RelativePath=".\lF_make_Amat.F90"/>
+		<File RelativePath=".\lI_make_Mmat.F90"/>
+		<File RelativePath=".\lJ_make_Psi.F90"/>
+		<File RelativePath=".\lK_make_Gamma.F90"/>
+		<File RelativePath=".\main.F90"/>
+		<File RelativePath=".\make_BTgamma.F90"/>
+		<File RelativePath=".\make_inverse.F90"/>
+		<File RelativePath=".\make_theata.F90"/>
+		<File RelativePath=".\parameter1.F90"/>
+		<File RelativePath=".\rotation_g_E.F90"/>
+		<File RelativePath=".\rotation_g_E_th.F90"/>
+		<File RelativePath=".\rotation_g_Se_th.F90"/>
+		<File RelativePath=".\solve_disp.F90"/>
+		<File RelativePath=".\solve_strain.F90"/>
+		<File RelativePath=".\solve_stress.F90"/>
+		<File RelativePath=".\solve_thermal_elastic.F90"/></Filter>
+		<Filter Name="ヘッダーファイル" Filter="fi;fd"/>
+		<Filter Name="リソースファイル" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/></Files>
+	<Globals/></VisualStudioProject>

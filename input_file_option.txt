@@ -1,0 +1,85 @@
+1 Dmat
+1
+2 Kmat
+1
+3 eKmat
+1
+4 Fmat
+1
+5 Xmat
+1
+6 eXmat
+1
+7 Kmat_LU
+1
+8 Amat
+1
+9 invAmat
+1
+10 Effective_Modulus
+0
+11 g_Kmat
+1
+12 g_eKmat
+1
+13 g_Amat
+1
+14 global_disp global_node_after
+0
+15 disp_speed
+0
+16 Qmat
+1
+17 g_Bmat
+1
+18 Rvec
+1
+19 R_n
+1
+20.
+1
+21 g_Kmat_LU
+1
+22 Ep_ac
+1
+23 Si
+1
+24 Se
+1
+25 node_after
+1
+26 Mmat
+1
+27 Qmat,Pmat
+1
+28. Bmat
+1
+29. Kmat(p)
+1
+30.
+0
+31.
+0
+32.
+0
+33.
+0
+34.
+0
+35.
+0
+36.
+0
+37.
+0
+38.
+0
+39.
+0
+40.
+0
+
+
+
+
+èoóÕ:1 èoóÕÇµÇ»Ç¢:0

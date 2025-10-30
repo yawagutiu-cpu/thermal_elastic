@@ -1,0 +1,6 @@
+local_nodes:ミクロの節点数
+340
+local_elements:ミクロの要素数
+309
+local_vol:ミクロの体積（面積）
+0.324759525 

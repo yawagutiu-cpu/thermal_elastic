@@ -1,0 +1,57 @@
+ガウス点 ga
+5.77350269189626d-1
+円周率 pi
+3.141592654d0
+
+ミクロモデルの次元 dim
+2
+ミクロモデルの要素数 econst(hu=309  hu_粗=120  r=1182   eqhu=976)
+73521
+ミクロモデルの節点数 nconst(hu=340  hu_粗=140  r=1255   eqhu=1035)
+74238
+
+セル体積 vol(hu=0.324759525    1r=2.922780   0.5r=2.922781   0.1r=2.922778   eq=2.922781   eqhu=2.598068)
+64.95
+等方性材料の種類 kind
+2
+
+グローバルモデルの次元 global_dim
+3
+グローバルモデルの要素数 global_econst
+1
+グローバルモデルの節点数 global_nconst
+8
+積層数 g_ply
+1
+グローバルモデルのペナルティ数 global_lambda
+1.0d15
+C_penalty_flag:(0=off/1=on)
+0
+Y_penalty_flag:(0=off/1=on)
+1
+
+trigger 1:弾性解析,2:弾粘塑性解析
+2
+fiber_deg1 direction1
+90.0d0
+fiber_deg2 direction2
+0.0d0
+fiber_deg3 direction3
+45.0d0
+fiber_deg4 direction4
+135.0d0
+きざみ幅 dt
+1.0d1
+参照ひずみ速度 e-rate(1)
+1.0d-5
+
+変位の倍率 local_mag
+5.0d0
+global変位の倍率 global_mag
+1.0d0
+時間依存解析における変位の目標値 global_end
+2.0d-2
+時間依存変形の変位速度[s^-1](規格通りに変更) Umat_speed
+1.0d-5
+温度変化 deltaT
+-155.0d0
